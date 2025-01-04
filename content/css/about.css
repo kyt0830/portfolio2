@@ -1,0 +1,297 @@
+@charset "utf-8";
+
+
+/* ABOUT.css */
+
+
+/* title.css */
+section.bg_img {
+    width: 100%;
+    height: 80vh;
+    background: url(../images/about/about_title_img01.jpg) no-repeat center 90px fixed;
+    background-size: cover;
+
+    position: relative;
+    /*.bg_cover, .img_title의 기준이 됩니다.*/
+}
+
+section.bg_img .bg_cover {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+section.bg_img .img_title {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 45%;
+}
+
+section.bg_img .img_title h2 {
+    font-size: 32px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+section.bg_img .img_title p {
+    font-size: 16px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+
+/* about */
+section.about {
+    margin: 100px 0px 100px;
+}
+
+/* 타이틀 */
+section.about .title_box {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.title_box h2 {
+    font-size: 28px;
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+    line-height: 1.2;
+}
+
+.title_box p {
+    font-size: 16px;
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.2;
+}
+
+/* 핵심가치 */
+section.about .core_value {
+    margin-bottom: 100px;
+}
+
+.core_value .subtit_box {}
+
+.core_value .subtit_box h2 {}
+
+.core_value .view {
+    width: 100%;
+    overflow: hidden;
+}
+
+.core_value .slide_box {
+    width: 200%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.core_value .slide_box .slide {
+    position: relative;
+    /* .core_caption의 기준이 됩니다.*/
+}
+
+.core_value .slide_box .slide .img_box {}
+
+.core_value .slide_box .slide .img_box img {
+    width: 100%;
+}
+
+.core_value .slide_box .slide .core_caption {
+    width: 100%;
+    height: 100%;
+    padding: 264px 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.core_value .slide_box .slide .core_caption h3 {
+    font-size: 28px;
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 5px;
+    line-height: 1.2;
+}
+
+.core_value .slide_box .slide .core_caption p {
+    font-size: 16px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.2;
+}
+
+/* 회사연혁 */
+section.about .history {
+    margin-bottom: 100px;
+}
+
+.history .subtit_box {}
+
+.history .subtit_box h2 {}
+
+.history .view {
+    width: 100%;
+    overflow: hidden;
+}
+
+.history .view .slide_box {
+    width: 200%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    outline: 3px solid red;
+}
+
+.history .view .slide_box .slide {
+    /* flex-grow: 속성을 사용해도 됩니다. */
+    width: 20%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.history .view .slide_box .slide .year {
+    margin-bottom: 30px;
+}
+
+.history .view .slide_box .slide .year h4 {
+    font-size: 28px;
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.history .view .slide_box .slide .year_caption {
+    border-right: 1px solid #ccc;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.history .view .slide_box .slide .year_caption p {
+    font-size: 16px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #333;
+}
+
+.history .view .slide_box .slide .year_caption p span {
+    color: #000;
+    font-weight: 600;
+}
+
+/* 슬라이드 bar */
+.history .view .slide_bar {}
+
+
+
+
+/* CI */
+section.about .ci {
+    margin-bottom: 100px;
+}
+
+.ci .subtit_box {}
+
+.ci .subtit_box h2 {}
+
+.ci .ci_box {
+    width: 1320px;
+    height: 400px;
+    background-color: #ccc;
+
+    padding: 170px 0;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.ci .ci_box .img_box {}
+
+.ci .ci_box .img_box img {
+    margin: 0 auto;
+    height: 60px;
+}
+
+.ci .download_btn {
+    display: inline-block;
+    width: 280px;
+    height: 70px;
+    line-height: 70px;
+    font-weight: 600;
+    text-align: center;
+    color: #333;
+    border: 1px solid #333;
+}
+
+.ci .download_btn:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* contact us */
+section.about .contact {}
+
+.contact .subtit_box {}
+
+.contact .subtit_box h2 {}
+
+.contact .employ_content_box {    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+
+/* common.css */
+/* contact의 공통 스타일 */
+.contact .employ_content_box>div {
+    overflow: hidden;
+    position: relative;
+    /* span태그의 기준이 됩니다.*/
+}
+.contact .employ_content_box>div:hover img {
+    transform: scale(1.1);
+}
+.contact .employ_content_box>div a {}
+.contact .employ_content_box>div a span {
+    font-size: 16px;
+    font-size: 1rem;
+    font-weight: 500;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #333;
+    z-index: 10;
+}
+.contact .employ_content_box>div a img {
+    width: 100%;
+    transition: all 1s ease;
+}
+/*각 article의 subtit 공통 style*/
+.subtit_box {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.subtit_box h2 {
+    display: inline-block;
+    font-size: 32px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+}

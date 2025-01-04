@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+/* news.css */
+
+
+section.title{
+    margin-top : 150px;
+    margin-bottom: 50px;
+    padding : 50px 0;
+    text-align: center;
+    /* background-color: bisque; */
+    /* outline: 3px solid red; */
+    
+}
+section.title h2{
+    font-size: 32px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+}
+section.title p{
+    font-size: 16px;
+    font-size: 1rem;
+    color: #333;
+}
+
+
+
+section.news{
+    margin-bottom: 100px;
+}
+/* 타이틀,검색 */
+.news .content_box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.news .content_box .subtit_box{
+    flex-grow: 9;
+}
+.news .content_box .subtit_box h3 {
+    font-size: 28px;
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #333;
+}
+.news .content_box .search_box{
+}
+.news .content_box .search_box form{
+}
+.news .content_box .search_box form fieldset{
+    border : none;
+    padding-top:4px;
+}
+.news .content_box .search_box form input[type="search"]{
+    display: inline-block;
+    padding-left : 10px;
+    width : 200px;
+    height : 32px;
+    border : 1px solid #ccc;
+    outline: none;
+}
+.news .content_box .search_box form input[type="submit"]{
+    display: inline-block;
+    width : 32px;
+    height : 32px;
+    outline: none;
+    vertical-align: bottom;
+}
+
+
+/* 뉴스 게시물 */
+.news .news_box{
+    padding : 40px 0;
+    box-sizing: border-box;
+    border-top : 1px solid #333;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap : 50px;
+    justify-content: space-between;
+}
+
+.news .news_box .img_box{
+    width : 30%;
+    overflow: hidden;
+}
+.news .news_box .img_box:hover img{
+    transform : scale(1.1);
+}
+.news .news_box .img_box img{
+    width : 100%;
+    transition: all 1s ease;
+}
+.news .news_box .news_caption{
+    width : 70%;
+}
+.news .news_box .news_caption a{}
+.news .news_box .news_caption a:hover h4, .news .news_box .news_caption a:hover p{
+    text-decoration: underline;
+}
+.news .news_box .news_caption a h4{
+    font-size : 20px;
+    font-size : 1.125rem;
+    font-weight: 600;
+    color : #333;
+}
+.news .news_box .news_caption a span{
+    font-size : 14px;
+    font-size : 0.875rem;
+    color : #666;
+}
+.news .news_box .news_caption a p{
+    font-size : 16px;
+    font-size : 1rem;
+    font-weight: 400;
+    margin-top : 30px;
+    color : #333;
+}
+
+/* 뉴스 게시판 버튼 */
+
+.news .btn_box{
+    padding : 40px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap : 16px;
+    justify-content: center;
+}
+.news .btn_box a{
+    display: inline-block;
+    width : 24px;
+    height : 24px;
+    /* border : 1px solid #333; */
+    font-size : 0;
+    vertical-align: middle;
+}
+.news .btn_box .page ul li{
+    display: inline-block;
+    text-align: center;
+}
+.news .btn_box .page ul li a{
+    font-size : 16px;
+    font-size : 1rem;
+    color : #333;
+    line-height: 24px;
+}
+li.on a{
+    font-weight: 800;;
+}
+
+a.start_page{
+    background: url(../images/news/first_of_page.png) no-repeat center center;
+}
+a.prev{
+    background: url(../images/news/prev_page.png) no-repeat center center;
+}
+a.next{
+    background: url(../images/news/next_page.png) no-repeat center center;
+}
+a.end_page{
+    background: url(../images/news/end_of_page.png) no-repeat center center;
+}

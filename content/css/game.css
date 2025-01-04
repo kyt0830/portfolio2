@@ -1,0 +1,273 @@
+@charset "utf-8";
+
+
+
+/* game.css */
+section.bg_img {
+    width: 100%;
+    height: 80vh;
+    background: url(../images/game/game_title_img01.jpg) no-repeat center 90px fixed;
+    background-size: cover;
+
+    position: relative;
+    /*.bg_cover, .img_title의 기준이 됩니다.*/
+}
+
+section.bg_img .bg_cover {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+section.bg_img .img_title {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 45%;
+}
+
+section.bg_img .img_title h2 {
+    font-size: 32px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+section.bg_img .img_title p {
+    font-size: 16px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+
+/* game */
+
+section.game {
+    padding-top: 100px;
+    padding-bottom: 200px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+section.game nav {
+    margin-bottom: 100px;
+}
+
+section.game .menu_box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 1.1818%;
+}
+
+section.game .menu_box li {
+    width: 32.93%;
+    position: relative;
+}
+
+section.game .menu_box li .game_title_box {
+    width: 100%;
+    height: 100%;
+    padding-top: 35%;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+section.game .menu_box li .game_title_box h3 {
+    color: #fff;
+    font-size: 20px;
+}
+
+section.game .menu_box li a {}
+
+section.game .menu_box li a img {
+    width: 100%;
+    display: block;
+}
+
+/* 탭메뉴 클래스 on이 적용될 때 타이틀박스 */
+section.game .menu_box li.on .game_title_box {
+    display: block;
+}
+
+/* 공통 스타일 */
+.subtit_box {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.subtit_box h3 {
+    display: inline-block;
+    font-size: 32px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+/* 아키에이지 크로니클 */
+.game .archeage_chronicle {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* 아키에이지 워 */
+.game .archeage_war {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    /* js기본값 */
+    /* display: none; */
+}
+
+/* 달빛조각사 */
+.game .moonlight {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    /* js기본값 */
+    /* display: none; */
+}
+
+
+
+
+/* 게임 영상 공통 스타일 */
+.game .game_video {
+    position: relative;
+    /*.site_btn, img의 기준이 됩니다.*/
+    margin-bottom: 100px;
+}
+
+.game .game_video video {
+    display: block;
+    width: 100%;
+}
+
+.game .game_video img {
+    width: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.8;
+}
+
+.game .game_video .site_btn {
+    display: block;
+    width: 250px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    font-size: 1.125rem;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.game .game_video .site_btn:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* 게임특징 공통 스타일 */
+.game .game_feature {
+    margin-bottom: 100px;
+}
+
+.game .game_feature .subtit_box {}
+
+.game .game_feature .subtit_box h3 {}
+
+.game .game_feature .feature_box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.1818%;
+}
+
+.game .game_feature .feature_box .feature {
+    width: 49.40%;
+    margin-bottom: 1.1818%;
+    position: relative;
+    /*.feature_caption의 기준이 됩니다.*/
+}
+
+.game .game_feature .feature_box .feature:hover .feature_caption {
+    display: block;
+}
+
+.game .game_feature .feature_box .feature .img_box {}
+
+.game .game_feature .feature_box .feature .img_box img {
+    width: 100%;
+    display: block;
+}
+
+.game .game_feature .feature_box .feature .feature_caption {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    /* 기본값 */
+    display: none;
+}
+
+.game .game_feature .feature_box .feature .feature_caption p {
+    padding: 35% 0;
+    text-align: center;
+    font-size: 32px;
+    color: #fff;
+
+}
+
+
+/* 아트웍 공통 스타일 */
+.game .game_artwork {}
+
+.game .game_artwork .show_img {
+    width: 100%;
+}
+
+.game .game_artwork .show_img img {
+    width: 100%;
+    display: block;
+}
+
+.game .game_artwork .view {}
+
+.game .game_artwork .view .slide_box {
+    width: 200%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.game .game_artwork .view .slide_box .silde {
+    width: 10%;
+}
+
+.game .game_artwork .view .slide_box .silde img {
+    width: 100%;
+    display: block;
+}

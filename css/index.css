@@ -1,0 +1,237 @@
+@charset "utf-8";
+
+
+
+/* index.css */
+section.game_video {
+    position: relative;
+    /*video태그의 기준이 됩니다.*/
+    height: 90vh;
+    overflow: hidden;
+}
+
+section.game_video video {
+    position: absolute;
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+    object-position: center center;
+}
+
+section.game_video .title {
+    width : 100%;
+    position: absolute;
+    text-align: center;
+    font-size: 48px;
+    font-size: 3rem;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+main {}
+
+/* article 및 .subtit_box / common style */
+main article {
+    margin: 50px 0px 100px;
+}
+
+.subtit_box {
+    width: 100%;
+    margin-bottom: 10px;
+    position: relative;
+    /* .more_btn의 기준이 됩니다.*/
+}
+
+.subtit_box h2 {
+    display: inline-block;
+    font-size: 32px;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.subtit_box .more_btn {
+    color: #333;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: 400;
+
+    position: absolute;
+    right: 40px;
+    bottom: 0;
+}
+
+
+/* game */
+main article.games {}
+
+main article.games .view {
+    overflow: hidden;
+}
+
+main article.games .view .slide_box {
+    width: 300%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    /* 좌표값 제어를 위해 부여합니다. */
+    position: relative;
+}
+
+main article.games .view .slide_box .slide {}
+
+.slide .img_box {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.slide .img_box a:hover img {
+    transform: scale(1.1);
+}
+
+.slide .img_box a img {
+    width: 100%;
+    transition: all 1s ease;
+}
+
+.slide .slide_caption {}
+
+.slide .slide_caption h3 {
+    font-size: 28px;
+    font-size: 1.75rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.slide .slide_caption p {
+    font-size: 16px;
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.2;
+}
+
+/* news */
+main article.news {}
+
+main article.news .art_box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+main article.news .art_box .content {
+    width: 32.12%;
+    /* 424px(콘텐츠너비) / 부모 공간 1320px x 100(백분율) = 32.1212..  */
+}
+
+main article.news .art_box .content~.content {
+    /* flex의 마진을 설정하는 gap으로 값을 부여해도 된다. */
+    margin-left: 24px;
+}
+
+.content .img_box {
+    margin-bottom: 10px;
+    overflow: hidden;
+
+}
+
+.content .img_box a {}
+
+.content .img_box a:hover img {
+    transform: scale(1.1);
+}
+
+.content .img_box a img {
+    width: 100%;
+    transition: all 1s ease;
+}
+
+.content .content_caption {}
+
+.content .content_caption h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    word-break: keep-all;
+}
+
+.content .content_caption span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #555;
+}
+
+/* contact us */
+main article.contact {}
+
+article.contact .office_img {
+    margin-bottom: 30px;
+}
+
+article.contact .office_img .img_box {}
+
+article.contact .office_img .img_box img {
+    width: 100%;
+}
+
+article.contact .contact_box {}
+
+article.contact .contact_box .employ_copy {
+    margin-bottom: 10px;
+    ;
+}
+
+article.contact .contact_box .employ_copy h3 {
+    font-size: 28px;
+    font-size: 1.75rem;
+    letter-spacing: -1px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+article.contact .contact_box .employ_copy h3 .main_color {
+    color: #f0513f;
+}
+
+article.contact .contact_box .employ_copy p {
+    font-size: 16px;
+    font-size: 1rem;
+    color: #444;
+}
+
+article.contact .contact_box .employ_content_box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+/* content box 공통 클래스 */
+article.contact .contact_box .employ_content_box>div {
+    overflow: hidden;
+    position: relative;
+    /* span태그의 기준이 됩니다.*/
+}
+
+article.contact .contact_box .employ_content_box>div:hover img {
+    transform: scale(1.1);
+}
+
+article.contact .contact_box .employ_content_box>div a span {
+    font-size: 16px;
+    font-size: 1rem;
+    font-weight: 500;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #333;
+    z-index: 10;
+}
+
+article.contact .contact_box .employ_content_box>div a img {
+    width: 100%;
+    transition: all 1s ease;
+}
+
