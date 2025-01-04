@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+
+
+/* index-mobile.css */
+@media all and (max-width : 767px) {
+
+    /* header */
+    header {
+        height: 70px;
+    }
+
+    header .common_inner {
+        padding: 0 20px;
+    }
+
+    header .logo {
+        padding: 22px 0;
+    }
+
+    header .logo a {
+        width: 130px;
+    }
+
+    header .logo a img {
+        height: 26px;
+    }
+
+    header .gnb {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        /* 초기값 */
+        display: none;
+    }
+
+    header .gnb ul {
+        width: 100vw;
+        background-color: rgba(255, 255, 255);
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    header .gnb ul li {
+        padding: 20px 20px;
+        line-height: 30px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    header .language_box {
+        display: none;
+    }
+
+    /* ham */
+    header .ham {
+        height: 70px;
+        padding: 22px 0;
+        box-sizing: border-box;
+        display: block;
+    }
+
+    header .ham span {
+        display: block;
+        width: 32px;
+        height: 2px;
+        background-color: #444;
+    }
+
+    span.top {
+        margin-bottom: 7px;
+    }
+
+    span.mid {
+        margin-bottom: 8px;
+    }
+
+    /* //header */
+
+
+    /* game_video */
+    section.game_video .title {
+        font-size: 32px;
+        font-size: 2rem;
+    }
+
+
+    /* main */
+    .subtit_box {
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    .subtit_box h2 {
+        font-size: 24px;
+        font-size: 1.5rem;
+    }
+
+    .slide .slide_caption {
+        padding: 0 20px;
+    }
+
+    .slide .slide_caption h3 {
+        font-size: 20px;
+        font-size: 1.25rem;
+    }
+
+    .content .content_caption {
+        padding : 0 16px;
+    }
+    .content .content_caption h3{
+        font-size : 16px;
+        font-size : 1rem;
+    }
+
+    article.contact .contact_box .employ_copy{
+        padding : 0 20px;
+        margin-bottom: 30px;
+    }
+    article.contact .contact_box .employ_copy h3{
+        font-size : 24px;
+        font-size: 1.5rem;
+    }
+    article.contact .contact_box .employ_content_box {
+        flex-direction: column;
+        gap : 30px 0;
+    }
+    
+
+    /* footer */
+    footer .common_inner{
+        padding : 0 20px;
+    }
+}

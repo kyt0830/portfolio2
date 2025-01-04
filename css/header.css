@@ -32,11 +32,11 @@ header .logo {
 
 header .logo a {
     width : 160px;
-    height: 33px;
 }
 
 header .logo a img {
- 
+    height : 33px; 
+    display: block;
 }
 
 header .gnb {
