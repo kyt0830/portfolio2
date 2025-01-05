@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+
+/* about_moblie */
+@media all and (max-width : 767px) {
+
+    /* about */
+
+    /* 공통 style */
+    .subtit_box {
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    .subtit_box h2 {
+        font-size: 24px;
+        font-size: 1.5rem;
+    }
+
+
+    section.bg_img {
+        background-position: center 70px;
+    }
+
+    section.bg_img .img_title h2 {
+        font-size: 24px;
+        font-size: 1.5rem;
+    }
+
+    .title_box h2 {
+        font-size: 20px;
+        font-size: 1.25rem;
+    }
+
+    .core_value .slide_box {
+        width: 300%;
+    }
+
+    .core_value .slide_box .slide .core_caption {
+        /* padding : 50% 0; */
+    }
+
+    .core_value .slide_box .slide .core_caption h3 {
+        font-size: 16px;
+        font-size: 1rem;
+    }
+
+    .core_value .slide_box .slide .core_caption p {
+        font-size: 14px;
+        font-size: 0.875rem;
+    }
+
+    .history .view .slide_box {
+        width: 400%;
+    }
+
+    .history .view .slide_box .slide {
+        width: 12.5%;
+    }
+
+    .history .view .slide_box .slide .year h4 {
+        font-size: 20px;
+        font-size: 1.25rem;
+    }
+
+    .history .view .slide_box .slide .year_caption p {
+        font-size: 14px;
+        font-size: 0.875rem;
+    }
+
+    .history .view .slide_box .slide .year_caption p span {
+        font-size: 14px;
+        font-size: 0.875rem;
+    }
+
+    .ci .ci_box {
+        height: 200px;
+        padding: 80px 0;
+    }
+
+    .ci .ci_box .img_box img {
+        height: 40px;
+    }
+
+    .ci .download_btn {
+        width: 150px;
+        height: 50px;
+        line-height: 50px;
+        font-size : 14px;
+        font-size : 0.875rem;
+    }
+
+
+    
+
+
+    .contact .employ_content_box {
+        flex-direction: column;
+        gap : 30px 0;
+    }
+    
+}
