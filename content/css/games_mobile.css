@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+
+/* games_moblie */
+@media all and (max-width : 767px) {
+
+    /* 공통 style */
+    .subtit_box {
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    .subtit_box h3 {
+        font-size: 24px;
+        font-size: 1.5rem;
+    }
+
+
+    section.bg_img {
+        background-position: center 70px;
+    }
+
+    section.bg_img .img_title h2 {
+        font-size: 24px;
+        font-size: 1.5rem;
+    }
+
+    .title_box h2 {
+        font-size: 20px;
+        font-size: 1.25rem;
+    }
+
+    section.game .menu_box li .game_title_box {
+        padding-top: 20%;
+    }
+
+    section.game .menu_box li .game_title_box h3 {
+        font-size: 14px;
+        font-size: 0.875rem;
+    }
+
+    .game .game_video img {
+        width: 130px;
+    }
+
+    /* 아키에이지 워 영상로고 */
+    .game .archeage_war .game_video img {
+        width: 90px;
+        transform: translate(-50%, -75%);
+    }
+
+    .game .game_video .site_btn {
+        width: 160px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 14px;
+        font-size: 0.785rem;
+    }
+    .game .game_feature .feature_box .feature .feature_caption p {
+        padding: 35% 0;
+        font-size : 20px;
+        font-size : 1.125rem;
+
+    }
+
+
+
+
+
+
+}
