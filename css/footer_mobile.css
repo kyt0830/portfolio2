@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+
+
+/* footer-mobile.css */
+@media all and (max-width : 767px) {
+    /* footer */
+    footer{
+        padding : 20px 0;
+    }
+    footer .common_inner{
+        padding : 0 20px;
+    }
+    footer .footer_menu {
+        gap: 0 10px;
+    }
+    footer .footer_menu a {
+        font-size: 14px;
+        font-size: 0.875rem;
+    }
+    footer .footer_info p {
+        font-size: 14px;
+        font-size: 0.875rem;
+    }
+    footer .copyright {
+        font-size : 16px;
+        font-size : 1rem;
+    }
+}

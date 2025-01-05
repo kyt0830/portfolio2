@@ -5,84 +5,11 @@
 /* index-mobile.css */
 @media all and (max-width : 767px) {
 
-    /* header */
-    header {
-        height: 70px;
-    }
-
-    header .common_inner {
-        padding: 0 20px;
-    }
-
-    header .logo {
-        padding: 22px 0;
-    }
-
-    header .logo a {
-        width: 130px;
-    }
-
-    header .logo a img {
-        height: 26px;
-    }
-
-    header .gnb {
-        position: absolute;
-        top: 70px;
-        left: 0;
-        /* 초기값 */
-        display: none;
-    }
-
-    header .gnb ul {
-        width: 100vw;
-        background-color: rgba(255, 255, 255);
-        flex-direction: column;
-        justify-content: start;
-    }
-
-    header .gnb ul li {
-        padding: 20px 20px;
-        line-height: 30px;
-        border-bottom: 1px solid #ccc;
-    }
-
-    header .language_box {
-        display: none;
-    }
-
-    /* ham */
-    header .ham {
-        height: 70px;
-        padding: 22px 0;
-        box-sizing: border-box;
-        display: block;
-    }
-
-    header .ham span {
-        display: block;
-        width: 32px;
-        height: 2px;
-        background-color: #444;
-    }
-
-    span.top {
-        margin-bottom: 7px;
-    }
-
-    span.mid {
-        margin-bottom: 8px;
-    }
-
-    /* //header */
-
-
     /* game_video */
     section.game_video .title {
         font-size: 28px;
         font-size: 1.75rem;
     }
-
 
     /* main */
     .subtit_box {
@@ -128,7 +55,6 @@
         font-size : 1rem;
     }
 
-
     /* contact */
     article.contact .contact_box .employ_copy{
         padding : 0 20px;
@@ -143,27 +69,4 @@
         gap : 30px 0;
     }
     
-
-    /* footer */
-    footer{
-        padding : 20px 0;
-    }
-    footer .common_inner{
-        padding : 0 20px;
-    }
-    footer .footer_menu {
-        gap: 0 10px;
-    }
-    footer .footer_menu a {
-        font-size: 14px;
-        font-size: 0.875rem;
-    }
-    footer .footer_info p {
-        font-size: 14px;
-        font-size: 0.875rem;
-    }
-    footer .copyright {
-        font-size : 16px;
-        font-size : 1rem;
-    }
 }
