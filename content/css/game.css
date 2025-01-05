@@ -119,6 +119,8 @@ section.game .menu_box li.on .game_title_box {
 .game .archeage_chronicle {
     padding-top: 100px;
     padding-bottom: 100px;
+
+    
 }
 
 /* 아키에이지 워 */
@@ -127,7 +129,7 @@ section.game .menu_box li.on .game_title_box {
     padding-bottom: 100px;
 
     /* js기본값 */
-    /* display: none; */
+    display: none;
 }
 
 /* 달빛조각사 */
@@ -136,7 +138,7 @@ section.game .menu_box li.on .game_title_box {
     padding-bottom: 100px;
 
     /* js기본값 */
-    /* display: none; */
+    display: none;
 }
 
 
@@ -238,9 +240,7 @@ section.game .menu_box li.on .game_title_box {
     text-align: center;
     font-size: 32px;
     color: #fff;
-
 }
-
 
 /* 아트웍 공통 스타일 */
 .game .game_artwork {}
