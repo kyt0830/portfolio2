@@ -96,6 +96,7 @@ section.about .core_value {
 }
 
 .core_value .slide_box .slide {
+    width : 16.66%;
     position: relative;
     /* .core_caption의 기준이 됩니다.*/
 }
@@ -109,7 +110,7 @@ section.about .core_value {
 .core_value .slide_box .slide .core_caption {
     width: 100%;
     height: 100%;
-    padding: 264px 0;
+    padding: 55% 0;
     box-sizing: border-box;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.6);
@@ -211,7 +212,8 @@ section.about .ci {
 .ci .subtit_box h2 {}
 
 .ci .ci_box {
-    width: 1320px;
+    width : 100%;
+    max-width: 1320px;
     height: 400px;
     background-color: #ccc;
 
@@ -224,7 +226,7 @@ section.about .ci {
 
 .ci .ci_box .img_box img {
     margin: 0 auto;
-    height: 60px;
+    height : 60px;
 }
 
 .ci .download_btn {
