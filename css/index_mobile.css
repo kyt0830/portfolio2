@@ -79,8 +79,8 @@
 
     /* game_video */
     section.game_video .title {
-        font-size: 32px;
-        font-size: 2rem;
+        font-size: 28px;
+        font-size: 1.75rem;
     }
 
 
@@ -95,6 +95,7 @@
         font-size: 1.5rem;
     }
 
+    /* game슬라이드 영역역 */
     .slide .slide_caption {
         padding: 0 20px;
     }
@@ -104,6 +105,21 @@
         font-size: 1.25rem;
     }
 
+    /* 뉴스 */
+    main article.news .art_box {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    main article.news .art_box .content {
+        width: 100%;
+        margin-bottom: 24px;
+        /* 424px(콘텐츠너비) / 부모 공간 1320px x 100(백분율) = 32.1212..  */
+    }
+    main article.news .art_box .content~.content {
+        /* flex의 마진을 설정하는 gap으로 값을 부여해도 된다. */
+        margin-left: 0;
+    }
     .content .content_caption {
         padding : 0 16px;
     }
@@ -112,6 +128,8 @@
         font-size : 1rem;
     }
 
+
+    /* contact */
     article.contact .contact_box .employ_copy{
         padding : 0 20px;
         margin-bottom: 30px;
@@ -127,7 +145,25 @@
     
 
     /* footer */
+    footer{
+        padding : 20px 0;
+    }
     footer .common_inner{
         padding : 0 20px;
+    }
+    footer .footer_menu {
+        gap: 0 10px;
+    }
+    footer .footer_menu a {
+        font-size: 14px;
+        font-size: 0.875rem;
+    }
+    footer .footer_info p {
+        font-size: 14px;
+        font-size: 0.875rem;
+    }
+    footer .copyright {
+        font-size : 16px;
+        font-size : 1rem;
     }
 }

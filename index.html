@@ -5,16 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>포트폴리오 | XLGAMES</title>
+    <!-- 구글폰트 -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/footer.css">
-
     <!-- 반응형 -->
     <link rel="stylesheet" href="css/index_mobile.css">
-
+    <!-- 스크립트 -->
     <script src="js/jquery-1.12.4.min.js"></script>
     <script>
         $(document).ready(function () {
@@ -34,16 +34,16 @@
     <header>
         <div class="common_inner flex_box">
             <h1 class="logo">
-                <a href="#">
+                <a href="index.html">
                     <img src="image/xlgames_logo.png" alt="엑스엘게임즈">
                 </a>
             </h1>
             <nav class="gnb">
                 <ul>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">GAMES</a></li>
-                    <li><a href="#">CONTACT US</a></li>
-                    <li><a href="#">NEWS</a></li>
+                    <li><a href="content/about.html">ABOUT</a></li>
+                    <li><a href="content/games.html">GAMES</a></li>
+                    <li><a href="content/contact.html">CONTACT US</a></li>
+                    <li><a href="content/news.html">NEWS</a></li>
                 </ul>
             </nav>
             <div class="language_box">
@@ -61,7 +61,7 @@
     </header>
 
     <section class="game_video">
-        <video autoplay muted loop playsinline>
+        <video autoplay muted loop>
             <source src="media/main_video.mp4" type="video/mp4">
         </video>
         <h2 class="title">
@@ -76,7 +76,7 @@
             <article class="games">
                 <div class="subtit_box">
                     <h2>GAMES</h2>
-                    <a href="#" class="more_btn">more</a>
+                    <a href="content/games.html" class="more_btn">more</a>
                 </div>
                 <!-- 실제 슬라이드 보여지는 영역 -->
                 <div class="view">
@@ -85,7 +85,7 @@
                         <!-- 슬라이드 -->
                         <li class="slide">
                             <div class="img_box">
-                                <a href="#"><img src="image/slide_img01.jpg" alt=""></a>
+                                <a href="https://aw.game.daum.net/aw/"><img src="image/slide_img01.jpg" alt=""></a>
                             </div>
                             <div class="slide_caption">
                                 <h3>아키에이지 워</h3>
@@ -98,7 +98,7 @@
 
                         <li class="slide">
                             <div class="img_box">
-                                <a href=""><img src="image/slide_img02.jpg" alt=""></a>
+                                <a href="https://www.darkgamer.com/ko"><img src="image/slide_img02.jpg" alt=""></a>
                             </div>
                             <div class="slide_caption">
                                 <h3>달빛조각사</h3>
@@ -111,7 +111,7 @@
 
                         <li class="slide">
                             <div class="img_box">
-                                <a href=""><img src="image/slide_img03.jpg" alt=""></a>
+                                <a href="https://archeagechronicles.kakaogames.com/ko/"><img src="image/slide_img03.jpg" alt=""></a>
                             </div>
                             <div class="slide_caption">
                                 <h3>아키에이지 크로니클</h3>
@@ -129,14 +129,14 @@
             <article class="news">
                 <div class="subtit_box">
                     <h2>NEWS</h2>
-                    <a href="" class="more_btn">more</a>
+                    <a href="content/news.html" class="more_btn">more</a>
                 </div>
                 <!-- 뉴스박스 -->
                 <div class="art_box">
                     <!-- 콘텐츠 -->
                     <div class="content">
                         <div class="img_box">
-                            <a href=""><img src="image/news_img01.jpg" alt=""></a>
+                            <a href="#"><img src="image/news_img01.jpg" alt=""></a>
                         </div>
                         <div class="content_caption">
                             <h3>카카오게임즈, '아키에이지 크로니클' 개발진 인터뷰 공개</h3>
@@ -146,7 +146,7 @@
 
                     <div class="content">
                         <div class="img_box">
-                            <a href=""><img src="image/news_img02.jpg" alt=""></a>
+                            <a href="#"><img src="image/news_img02.jpg" alt=""></a>
                         </div>
                         <div class="content_caption">
                             <h3>'달빛조각사:다크게이머' 아시아 주요지역 사전에약 개시</h3>
@@ -156,7 +156,7 @@
 
                     <div class="content">
                         <div class="img_box">
-                            <a href=""><img src="image/news_img03.jpg" alt=""></a>
+                            <a href="#"><img src="image/news_img03.jpg" alt=""></a>
                         </div>
                         <div class="content_caption">
                             <h3>'아키월드' 미주 서버 토지 NFT 민팅 및 서비스 시작</h3>
@@ -170,7 +170,7 @@
             <article class="contact">
                 <div class="subtit_box">
                     <h2>CONTACT US</h2>
-                    <a href="" class="more_btn">more</a>
+                    <a href="content/contact.html" class="more_btn">more</a>
                 </div>
                 <div class="office_img">
                     <div class="img_box">
@@ -186,14 +186,14 @@
                     <div class="employ_content_box">
                         <!-- left -->
                         <div class="left_content">
-                            <a href="">
+                            <a href="#">
                                 <span>채용공고 바로가기</span>
                                 <img src="image/contents_img01.jpg" alt="">
                             </a>
                         </div>
                         <!-- right -->
                         <div class="right_content">
-                            <a href="">
+                            <a href="#">
                                 <span>인재POOL 등록하기</span>
                                 <img src="image/contents_img02.jpg" alt="">
                             </a>
