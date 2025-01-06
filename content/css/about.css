@@ -8,10 +8,8 @@
 section.bg_img {
     width: 100vw;
     height: 80vh;
-    background: url(/portfolio2/content/images/about/about_title_img01.jpg) no-repeat center 90px;
-    background-attachment: fixed;
+    background: url(/portfolio2/content/images/about/about_title_img01.jpg) no-repeat center 90px fixed;
     background-size: cover;
-    -webkit-background-attachment: fixed;
 
     position: relative;
     /*.bg_cover, .img_title의 기준이 됩니다.*/
