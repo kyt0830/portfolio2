@@ -59,8 +59,11 @@ main article {
     font-weight: 400;
 
     position: absolute;
-    right: 40px;
+    right: 0;
     bottom: 0;
+
+    padding-right: 48px;
+    background: url(/portfolio2/image/arrow.png) no-repeat 40px 3px;
 }
 
 
@@ -129,7 +132,7 @@ main article.news .art_box .content {
 
 main article.news .art_box .content~.content {
     /* flex의 마진을 설정하는 gap으로 값을 부여해도 된다. */
-    margin-left: 1.1818%;
+    margin-left: 1.82%;
 }
 
 .content .img_box {
