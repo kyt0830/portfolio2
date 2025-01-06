@@ -6,7 +6,7 @@
 
 /* title.css */
 section.bg_img {
-    width: 100%;
+    width: 100vw;
     height: 80vh;
     background: url(../images/about/about_title_img01.jpg) no-repeat center 90px fixed;
     background-size: cover;
