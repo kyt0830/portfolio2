@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+
+/* contact_moblie */
+@media all and (max-width : 767px) {
+
+    /* title영역 */
+    section.bg_img {
+        background-position: center 70px;
+    }
+
+    section.bg_img .img_title h2 {
+        font-size: 24px;
+        font-size: 1.5rem;
+    }
+
+    .title_box h2 {
+        font-size: 20px;
+        font-size: 1.25rem;
+    }
+
+
+    /* 공통 style */
+    .subtit_box {
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    .subtit_box h2 {
+        font-size: 24px;
+        font-size: 1.5rem;
+    }
+
+    /* contact */
+
+    .contact .employ_content_box {
+        flex-direction: column;
+        gap: 30px 0;
+    }
+
+    .contact .employ_content_box>div a img {
+        padding-top: 30px;
+        transition: all 0.5s ease;
+    }
+
+    /* 채용절차 */
+    .process .process_list_box {
+        flex-direction: column;
+    }
+
+    .process .process_list_box .list {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        position: relative;
+        /*.process_caption의 기준이 됩니다.*/
+    }
+
+    .process .process_list_box .list .img_box {
+        display: block;
+        width: 40%;
+        max-width: 230px;
+        margin-bottom: 30px;
+    }
+
+    .process .process_list_box .list .process_caption {
+        width: 60%;
+        display: block;
+        margin-bottom: 30px;
+
+        position: absolute;
+        right: 0;
+    }
+
+    .process .process_list_box .list .process_caption h3 {
+        font-size: 18px;
+        font-size: 1.125rem;
+        margin-bottom: 0px;
+    }
+
+    .process .process_list_box .list .process_caption p {
+        font-size: 14px;
+        font-size: 0.875rem;
+    }
+
+    /* 복리후생 */
+    .benefit_wrap .benefit_des h3 {
+        font-size: 18px;
+        font-size: 1.125rem;
+    }
+
+    .benefit_wrap .list_box {
+        flex-wrap: wrap;
+
+    }
+
+    .benefit_wrap .list_box .list {
+        width: 50%;
+    }
+
+    .benefit_wrap .list_box .list .img_box img {
+        width: 100%;
+        max-width: 40px;
+    }
+
+    .benefit_wrap .list_box .list .benefit_caption h4 {
+        font-size: 16px;
+        font-size: 1rem;
+    }
+
+    .benefit_wrap .list_box .list .benefit_caption p {
+        font-size: 14px;
+        font-size: 0.875rem;
+    }
+
+    .contact .hire_aq .aq_box .img_box a img {
+        padding-top: 50px;
+        height: 150px;
+    }
+
+}
