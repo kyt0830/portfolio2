@@ -38,7 +38,6 @@ section.news{
     margin-bottom: 30px;
 }
 .news .content_box .subtit_box{
-    flex-grow: 9;
 }
 .news .content_box .subtit_box h3 {
     font-size: 28px;
@@ -49,10 +48,10 @@ section.news{
 .news .content_box .search_box{
 }
 .news .content_box .search_box form{
+    padding-top:4px;
 }
 .news .content_box .search_box form fieldset{
     border : none;
-    padding-top:4px;
 }
 .news .content_box .search_box form input[type="search"]{
     display: inline-block;
