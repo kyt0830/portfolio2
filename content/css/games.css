@@ -129,7 +129,7 @@ section.game .menu_box li.on .game_title_box {
     padding-bottom: 100px;
 
     /* js기본값 */
-    /* display: none; */
+    display: none;
 }
 
 /* 달빛조각사 */
@@ -138,7 +138,7 @@ section.game .menu_box li.on .game_title_box {
     padding-bottom: 100px;
 
     /* js기본값 */
-    /* display: none; */
+    display: none;
 }
 
 
