@@ -256,7 +256,9 @@ section.game .menu_box li.on .game_title_box {
     display: block;
 }
 
-.game .game_artwork .view {}
+.game .game_artwork .view {
+    overflow: hidden;
+}
 
 .game .game_artwork .view .slide_box {
     width: 200%;
